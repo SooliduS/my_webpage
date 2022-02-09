@@ -1,0 +1,51 @@
+#background{
+    background-color: #112;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.stars{
+    opacity: 0.3;
+    position: relative;
+    top:-30vh;
+    }
+    .stars-0{
+        animation: name 0.3s linear infinite;
+    }
+    .stars-1{
+        animation: name 1s linear infinite;
+    }
+    .stars-2{
+        animation: name 0.5s linear infinite;
+    }
+    .stars-3{
+        animation: name 0.4s linear infinite;
+    }
+    .stars-4{
+        animation: name 0.2s linear infinite;
+    }
+    @keyframes name {
+        0% { opacity:1}
+        50%{ opacity:0.5}
+        100% { opacity:1}
+        }
+        #title{
+    
+            margin:auto;
+            width:100%;
+            color:#e3e3e3;
+            position:relative;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            top:35vh;
+        }
+        #moon{
+            position: relative;
+            top:0vh;
+            left: 5vw;
+            font-size: 6vh;
+            color:#e3e3e3;
+        }

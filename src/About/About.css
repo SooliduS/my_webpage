@@ -1,0 +1,15 @@
+#about {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #334;
+  padding: 6vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about h2 {
+  font-size: 20pt;
+  position: sticky;
+  top:0;
+}
